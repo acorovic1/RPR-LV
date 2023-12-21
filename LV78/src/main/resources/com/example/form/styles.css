@@ -1,0 +1,30 @@
+.button {
+    fx-padding: 5;
+}
+
+.textLabel {
+    -fx-padding: 10;
+    -fx-font-size: 14;
+}
+
+.hbox {
+    -fx-alignment: CENTER-RIGHT;
+}
+
+.list {
+    fx-padding: 10;
+}
+
+.title {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+}
+
+.list .list-cell:even {
+    -fx-background-color: white;
+}
+
+.list .list-cell:odd {
+    -fx-background-color: grey;
+}
